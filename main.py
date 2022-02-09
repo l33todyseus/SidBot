@@ -1,9 +1,12 @@
 import os
 import discord
 from request import *
-from replit import db
+# from replit import db
 
-
+# TODO
+# Remove replit dependence and use sqlite instead
+#
+#
 db["precioant"] = 0
 client = discord.Client()
 

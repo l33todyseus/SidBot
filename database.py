@@ -3,6 +3,8 @@
 
 import sqlite3
 
+# Creando Database
+
 conn = sqlite3.connect('sid.db')
 print("Base abierta exitosamente")
 
